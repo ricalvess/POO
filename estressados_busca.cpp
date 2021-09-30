@@ -39,7 +39,7 @@ int main()
 {
     int vetor[size] = {2, 20, -1, -5, 2, -10};
     printf("%d\n", existe(vetor, size, -1));
-    printf("O numero de vezes que aparece = %d\n", contar(vetor, size, 2));
-    printf("A posicao em que o numero aparece a primeira vez e = %d\n", procurar_valor(vetor, size, 2));
-    printf("Dada a posicao para iniciar a busca, a proxima posicao em que aparece e = %d\n", procurar_valor_apos(vetor, size, 1, 2));
+    printf("O numero de vezes que aparece: %d\n", contar(vetor, size, 2));
+    printf("A posicao em que o numero aparece a primeira vez e: %d\n", procurar_valor(vetor, size, 2));
+    printf("Dada a posicao para iniciar a busca, a proxima posicao em que aparece e: %d\n", procurar_valor_apos(vetor, size, 1, 2));
 }

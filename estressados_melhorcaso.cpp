@@ -62,11 +62,11 @@ int procura_melhor_se(int vetor[], int size)
 
 int main()
 {
-    int vetor[size] = {2, 20, -10, -5, 2, -1};
-    printf("O menor valor da lista e = %d\n", procura_menor(vetor, size));
-    printf("O maior valor da lista e = %d\n", procura_maior(vetor, size));
-    printf("A posicao do menor valor da lista e = %d\n", procura_menor_pos(vetor, size));
-    printf("A posicao do menor valor da lista apos a posicao e = %d\n", procura_menor_pos_apos(vetor, size, 3));
-    printf("A posicao do homem mais calmo da lista e = %d\n", procura_melhor_se(vetor, size));
+    int vetor[size] = {2, 20, -1, -5, 2, -10};
+    printf("O menor valor da lista e: %d\n", procura_menor(vetor, size));
+    printf("O maior valor da lista e: %d\n", procura_maior(vetor, size));
+    printf("A posicao do menor valor da lista e: %d\n", procura_menor_pos(vetor, size));
+    printf("A posicao do menor valor da lista apos a posicao e: %d\n", procura_menor_pos_apos(vetor, size, 3));
+    printf("A posicao do homem mais calmo da lista e: %d\n", procura_melhor_se(vetor, size));
 
 }
